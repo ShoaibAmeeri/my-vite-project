@@ -27,13 +27,19 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+ 
   min-width: 320px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+a{
+  text-decoration: none;
+  color: white;
+  
 }
 
 button {
@@ -54,6 +60,7 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
 
 @media (prefers-color-scheme: light) {
   :root {

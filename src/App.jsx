@@ -1,35 +1,83 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import img from'./assets/img.png';
+// import  'myStyle.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+// function hello() {
+//   return (
+//     <>
+//     <h1>Hello</h1>
+//     </>
+//   )
+// }
+// export default hello
+function Cv(){
+  return(
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
 
-export default App
+   <div className="main">
+    <div className="border">
+    <div className="name">
+    <h1>SHOAIB</h1>
+      <h1 style={{marginLeft:'50px'}}>AMEERI</h1>
+    </div>
+
+
+    </div>
+    <div className="st"></div>
+     <div className="left" >
+       <img src={img} width={300} height={300} alt="hello" srcset="" />
+
+
+      <div className="about"> 
+       <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue dui.</p>
+       <br /><br />
+      <a href="">+123-456-7890</a> <br />
+      <a href="">hello@reallygreatsite.com</a> <br />
+      <a href="">123 Anywhere St., Any City</a> 
+       </div>
+
+     </div>
+     <div className="right" >
+      <button className='exp'> Project links</button>
+      <br />
+     <p className='space'> Arowwai Industries
+      <br />
+      Sydney - Australia
+      <br />
+      2020 - 2022
+      </p>
+      <p className='space '>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+      </p>
+      <button className='exp'> Education</button>
+      <br />
+     <p className='space'> BSCS
+      <br />
+      GCUF - Faisalabad
+      <br />
+      2020 - 2024(present) 
+
+      </p>
+      <p className='space '>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+      </p>
+      <br />
+     <p className='space'> ICS
+      <br />
+      PGC - Faisalabad
+      <br />
+      2018- 2020 
+
+      </p>
+      <p className='space '>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo. Ut aliquam augue.
+      </p>
+        
+    </div> 
+   </div> 
+
+   </>
+  
+ )}
+
+ export default Cv;
